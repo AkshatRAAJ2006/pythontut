@@ -142,4 +142,46 @@
 # Warna Rejected
 
 
+# sum of digits
+# sum=0
+# n=8739
+# while(n>0):
+#     digit=n%10
+#     sum=sum+digit
+#     n=n//10
+# print(sum)
+
+# reverse the number
+# n=12345
+# rev=0
+# while(n>0):
+#     digit=n%10
+#     rev=rev*10+digit
+#     n=n//10
+# print(rev)
+
+# count no of digits
+# n=873967
+# cnt=0
+# while(n>0):
+#     digit=n%10
+#     cnt=cnt+1
+#     n=n//10
+# print(cnt)
+
+# pattern printing 
+# *
+# **
+# ***
+# ****
+# # *****
+# i=1
+# while(i<=5):
+#     j=1
+#     while(j<=i):
+#         print(j,end=' ')
+#         j=j+1
+#     print()
+#     i=i+1
+# print(j)
 
