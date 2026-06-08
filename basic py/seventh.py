@@ -132,6 +132,25 @@
 #         print('even',x)
 
 
-for x in range(1,11):
-    if(x%2!=0):
-        print('odd',x)
+# def sum():
+#     print(3+2)
+
+# sum()
+
+
+
+# def greet(name):
+#     print(f'good night,{name}')
+
+# greet('akshat')
+
+# def gun_dmg():
+#     return 35
+
+# gun_dmg()
+
+
+# def mul(a,b):
+#     return a*b
+
+# mul(4,5)

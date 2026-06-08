@@ -135,11 +135,54 @@
 # 81–100 → ₹2000 fine
 # 100+ → License suspended message.
 
+
+
+# speed=int(input('enter speed'))
+
+
+# def main():
+#     if(speed<=60):
+#         print('no fine ')
+#     elif(speed>=61 and speed<81):
+#         print('1000rs fine charged ')
+#     elif(speed>=81 and speed<=100):
+#         print('2000 rs fine charged')
+#     else:
+#         print('liscense suspended')
+
+
+# main()
+
+
+
+
+
+
+
 # Bank Loan Approval
 # Salary aur credit score input lo.
 # Salary >50000 aur score >750 → Approved
 # Salary >30000 aur score >650 → Conditional Approval
 # Warna Rejected
+
+# salary=float(input('enter salary: '))
+# cs=float(input('enter cs: '))
+
+
+
+# def main():
+#     if(salary>=50000 and cs>750):
+#         print('loan approved')
+#     elif(salary>=30000 and salary<=50000 and cs>650 and cs<750):
+#         print('conditional approval required')
+#     else:
+#         print('sorry, your request was declined')
+
+
+# main()
+
+
+
 
 
 # sum of digits
@@ -184,4 +227,46 @@
 #     print()
 #     i=i+1
 # print(j)
+
+
+# def main(a,b):
+#     print(a+b)
+
+# main(3,5)
+
+
+
+# def main():
+#     a=int(input('enter a number '))
+
+
+# def Square(a):
+#     a=a*2
+#     print(a)
+
+# Square(2)
+
+
+# main()
+
+
+# num1=int(input('enter a number '))
+# num2=int(input('enter a number '))
+# num3=int(input('enter a number '))
+
+# def main():
+#     if(num1 and num2 <num3):
+#         print('third number is largest')
+#     elif(num2 and num3<num1):
+#         print('first number is largest')
+#     else:
+#         print('second number is largest')
+
+# main()
+
+
+
+
+
+
 
