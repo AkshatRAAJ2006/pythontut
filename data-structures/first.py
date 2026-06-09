@@ -34,8 +34,8 @@ name='akshat-raj'
 # print(cnt)
 
 
-cnt=0
-for x in name:
-    if( x!='a' or x!='e' or x!='i' or x!='o' or x!='u'):
-        cnt=cnt+1
-print(cnt)
+# cnt=0
+# for x in name:
+#     if( x!='a' or x!='e' or x!='i' or x!='o' or x!='u'):
+#         cnt=cnt+1
+# print(cnt)
