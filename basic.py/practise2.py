@@ -264,9 +264,148 @@
 
 # main()
 
+# x=6
+# y=4
+# print(2+8-6*(x+y))
+
+
+# i=1
+# while (i<=5):
+#     j=1
+#     while (j<=5):
+#         if(i<=j):
+#          print('*',end=' ')
+#         j=j+1
+#     print()
+#     i=i+1
 
 
 
+# matri=[
+#     [11,22,33],
+#     [44,55,66],
+#     [77,88,99]
+# ]
+
+# print(matri[1][1])
 
 
+# i=0
+# while (i<4):
+#     j=0
+#     while (j<3):
+#         print(matri[i][j])
+#         j=j+1
+#     i=i+1
 
+
+# i=0
+# sum=0
+# while (i<len(matri)):
+#     j=0
+#     while (j<len(matri)):
+#         sum=sum+matri[i][j]
+#         j=j+1
+#     i=i+1
+
+# print(sum)
+
+# i=0
+# while (i<len(matri)):
+#     j=0
+#     while (j<len(matri)):
+#         j=j+1
+#     i=i+1
+
+# print(matri)
+
+
+# while loop problem solving
+# 100 or less than 100, then bill----->5*unit
+# more than 100 or less than 200---->7*Unit 
+# 200 and 250+----->10*unit plus surcharge 5%
+
+
+# unit=float(input('enter unit consumed '))
+# bill=0
+# surCharge=0
+
+
+# if(unit<=100):
+#     bill=unit*5
+#     print('units consumed: ',bill)
+# elif(unit>100 and unit<200):
+#     bill=100*5                    #50 if inp--->150
+#     bill=bill+(bill-unit)*7
+#     print('your bill: ',bill)
+# elif(unit>=200 and unit<=249):
+#     bill=100*5
+#     bill=bill+100*7
+#     bill=bill+(unit-200)*10        #250 if inp---->50
+#     print('your bill: ',bill)
+# else:
+#     bill=100*5
+#     bill=bill+100*7
+#     bill=bill+100*10
+#     surCharge=bill*5/100
+    
+#     print('your final bill: ',bill+surCharge)
+
+# 1
+# 12
+# 1245
+
+# i=1
+# while(i<=5):
+#     j=1
+#     while(j<=5):
+#         if(j<=i):
+#             print(j*2-1,end=' ')
+#         j=j+1
+#     print()
+#     i=i+1
+
+
+# for i in range(1,5):
+#     for j in range(1,5):
+#         if(j<=i):
+#             print(j*2-1,end=' ')
+#     print()
+
+# i=0
+# while(i<=len(matri)):
+#     j=0
+#     while(j<=len(matri)):
+#         b=0
+#         while(b<=len(matri)):
+#             print(matri[i][j][b])
+#             b=b+1
+#         j=j+1
+#     i=i+1
+
+
+# for i in matri:
+#     for j in i:
+#         if j%2==0 :
+#             print(j,end=' ')
+#     print()
+
+
+# contacts mini project
+
+# contacts=[9773898476,9810966054]
+
+# addNo=int(input('add number: '))
+# contacts.append(addNo)
+
+# print(contacts)
+
+# setUser=input('set your username ')
+# setPass=input('set your password ')
+
+# loginUser=input('login \nusername: ')
+# LoginPass=input('login \nPassword: ')
+# if(setUser==loginUser and setPass==LoginPass):
+#     print('correct username and password')
+# else:
+#     print('wrong input, try again')
